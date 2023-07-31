@@ -16,5 +16,14 @@ const ShowScreen = ({ navigation }) => {
     </View>
   );
 };
+
+// return {
+//   headerRight: () => (
+//     <TouchableOpacity onPress={() => navigation.navigate('Edit')}>
+//       <EvilIcons name="pencil" size={35} />
+//     </TouchableOpacity>
+//   ),
+// };
+
 const styles = StyleSheet.create({});
 export default ShowScreen;
